@@ -1,0 +1,1 @@
+print("Hello my name is KHOV KHUNLY \nPurpose of learning Python:\n \t1-I would like to understand the technologies \n \t2-I would like to become a Software Developer \n \t3-I would like to change a career \nI am from IT Step Academy - Python Core")
