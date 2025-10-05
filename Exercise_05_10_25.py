@@ -13,16 +13,10 @@
 # Skip multiples of 5
 # When divisible by 7, print "Boom!" instead of the number
 
-
-
-# Print all numbers from 100 down to 1
-# Skip multiples of 5
-# When divisible by 7, print "Boom!" instead of the number
-
 for i in range(100, 0, -1):
-    if i % 5 == 0:
-        continue  # skip multiples of 5
+    if i % 5 ==0: 
+        continue
     elif i % 7 == 0:
-        print("Boom!")
+        print ("Boom!")
     else:
         print(i)
