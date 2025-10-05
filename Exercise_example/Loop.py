@@ -7,11 +7,11 @@ for _ in character:
     print(_)
 
 #EX 1: 
-# import time
-# for idx in range(0, len(languages)):
-#     name = input("Enter your name: \n")
-#     print("NO.", idx+1, "=", languages[idx])
-#     time.sleep(3)
+import time
+for idx in range(0, len(languages)):
+    name = input("Enter your name: \n")
+    print("NO.", idx+1, "=", languages[idx])
+    time.sleep(3)
 
 
 #EX 2:
