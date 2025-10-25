@@ -11,7 +11,7 @@
 #     number += 1
 #     if number % 7 == 0:
 #         print("BOOM!")
-#EX
+#EX1:
 # n = int(input("Enter a number: "))
 
 # for num in range(2, n + 1):  
@@ -21,18 +21,18 @@
 #     else:
 #         print(num)     
 # 
-# EX
+# EX2: 
 # 
 
 num = int(input("Enter a number: "))
 
 while True:
-    reversed_num = int(str(num)[::-1])
-    print(f"{num} + {reversed_num} = {num + reversed_num}")
-    num = num + reversed_num
+    num2 = int(str(num)[::-1])
+    print(f"{num} + {num2} = {num + num2}")
+    num = num + num2
 
     if str(num) == str(num)[::-1]:
-        print(f"Palindrome reached: {num}")
+        print(f"Palindrome: {num}")
         break
 
 
